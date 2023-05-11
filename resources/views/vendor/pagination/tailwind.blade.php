@@ -44,7 +44,7 @@
                     {{-- Previous Page Link --}}
                     @if (!$paginator->onFirstPage())
                         <a href="{{  $paginator->previousPageUrl() }}" rel="next" class="h-10 w-10 font-semibold text-gray-800 hover:text-gray-900 text-sm flex items-center justify-center mr-3" aria-label="{{ __('pagination.previous') }}">
-                            <i class="fas fa-arrow-left mr-2"></i>Previous
+                            <i class="fas fa-arrow-left mr-2"></i>Prev
                         </a>
                     @endif
 
