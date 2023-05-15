@@ -46,7 +46,7 @@ class TextWidgetResource extends Resource
                 Tables\Columns\TextColumn::make('image'),
                 Tables\Columns\TextColumn::make('title'),
 //                Tables\Columns\TextColumn::make('content'),
-                Tables\Columns\IconColumn::make('active')
+                Tables\Columns\IconColumn::make('actives')
                     ->boolean(),
 //                Tables\Columns\TextColumn::make('created_at')
 //                    ->dateTime(),
