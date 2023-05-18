@@ -32,7 +32,7 @@ class TextWidgetResource extends Resource
                     ->required()
                     ->maxLength(2048),
                 Forms\Components\Textarea::make('content'),
-                Forms\Components\Toggle::make('active')
+                Forms\Components\Toggle::make('actives')
                 ->required(),
 
             ])->columns(1);
