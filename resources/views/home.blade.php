@@ -9,5 +9,5 @@
     {{$posts ->links()}}
 
 </section>
-
+<x-sidebar/>
 </x-app-layout>

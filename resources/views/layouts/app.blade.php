@@ -64,7 +64,7 @@
             Code Nerd Central
         </a>
         <p class="text-lg text-gray-600">
-            Unleashing the Power of Technology
+          {{\App\Models\TextWidget::getTitle('header')}}
         </p>
     </div>
 </header>
