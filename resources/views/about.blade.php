@@ -1,4 +1,4 @@
-<x-app-layout meta-title="The techblog - About us page" :meta-description="about-us">
+<x-app-layout meta-title="The techblog - About us page" meta-description="about-us-page">
     <!-- Post Section -->
     <section class="w-full flex flex-col items-center px-3">
 
