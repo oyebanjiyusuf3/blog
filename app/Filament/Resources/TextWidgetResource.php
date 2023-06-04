@@ -43,7 +43,7 @@ class TextWidgetResource extends Resource
         return $table
             ->columns([
                 Tables\Columns\TextColumn::make('key'),
-                Tables\Columns\TextColumn::make('image'),
+                Tables\Columns\ImageColumn::make('image'),
                 Tables\Columns\TextColumn::make('title'),
 //                Tables\Columns\TextColumn::make('content'),
                 Tables\Columns\IconColumn::make('active')
